@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>实验八</title>
+        <style type="text/css">
+            .div{position:relative;}
+            .out{position: relative; width:"600px"; height:"380px"; background-color:Lime;}
+            .in{position: absolute; z-index:1; font-size:20px;}
+            .red{font-weight: bold; color:red;text-decoration: underline;}
+            .it{font-style: italic; font-size: 24px; font-weight: bold;}
+        </style>
+    </head>
+    </body>
+        <div class = "out">
+            <img src="https://res.cloudinary.com/dp2qmlqvn/image/upload/v1698200974/bit003/ch8/exp_8_1_nm5r3s.jpg">
+            <div class = "in">
+                <ul>
+                    <li>2017<span class="red">央视</span>综艺节目发力 彰显公益大爱</li>
+                    <li>继北京、上海后，2017年<span class="red">腾讯</span>视频推介会昨又在广州隆重举行</li>
+                    <li>“<span class="red">跨界融合 开放共赢</span>”移动互联网营销峰会</li>
+                    <li>首届<span class="it">“联建杯”</span>户外LED显示屏媒体大赛评审圆满落幕</li>            
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
